@@ -30,8 +30,8 @@
 
 6.	Compile the lex program with lex compiler to produce output file as lex.yy.c. eg $ lex filename.l $ cc lex.yy.c
 7.	Compile that file with C compiler and verify the output.
-
 # PROGRAM
+```
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
@@ -74,6 +74,8 @@ int main() {
 
     return 0;
 }
+
+```
 
 # OUTPUT
 ![image](https://github.com/user-attachments/assets/6cd17f56-47c1-4f0e-8318-53ca6b563551)
